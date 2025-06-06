@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mi Blog Personal</title>
+<title>La 5ª generación de la aviación</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
@@ -15,7 +15,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <div class="w3-content" style="max-width:1400px">
 
 <header class="w3-container w3-center w3-padding-32"> 
-  <h1><b>MI BLOG</b></h1>
+  <h1><b>La 5ª generación de la aviación</b></h1>
   <p>Bienvenido al blog de <span class="w3-tag">Juan Pérez</span></p>
 </header>
 
@@ -23,14 +23,14 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <div class="w3-col l8 s12">
   <div class="w3-card-4 w3-margin w3-white">
-    <img src="https://via.placeholder.com/1400x400" alt="Paisaje Natural" style="width:100%">
+    <img src="https://via.placeholder.com/1400x400" alt="Avión de combate" style="width:100%">
     <div class="w3-container">
-      <h3><b>Explorando la Naturaleza</b></h3>
-      <h5>Aventuras al aire libre, <span class="w3-opacity">6 de junio, 2025</span></h5>
+      <h3><b>Aviones de Combate Modernos</b></h3>
+      <h5>Características y tecnología avanzada, <span class="w3-opacity">6 de junio, 2025</span></h5>
     </div>
 
     <div class="w3-container">
-      <p>Descubre los lugares más impresionantes para conectar con la naturaleza. Rutas de senderismo, montañas, y rincones mágicos que te dejarán sin aliento.</p>
+      <p>Explora la evolución de los aviones de combate y descubre las características que hacen única a la quinta generación de aeronaves.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
           <p><button class="w3-button w3-padding-large w3-white w3-border"><b>LEER MÁS »</b></button></p>
@@ -44,14 +44,14 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <hr>
 
   <div class="w3-card-4 w3-margin w3-white">
-  <img src="https://via.placeholder.com/1400x400" alt="Puente histórico" style="width:100%">
+  <img src="https://via.placeholder.com/1400x400" alt="Tecnología furtiva" style="width:100%">
     <div class="w3-container">
-      <h3><b>Arquitectura y Viajes</b></h3>
-      <h5>Descubriendo ciudades, <span class="w3-opacity">4 de junio, 2025</span></h5>
+      <h3><b>La tecnología furtiva</b></h3>
+      <h5>Innovaciones en combate aéreo, <span class="w3-opacity">4 de junio, 2025</span></h5>
     </div>
 
     <div class="w3-container">
-      <p>Un recorrido por las maravillas arquitectónicas del mundo. Castillos, puentes y estructuras fascinantes que cuentan historias del pasado.</p>
+      <p>Descubre cómo la tecnología de baja visibilidad ha cambiado la estrategia en combate aéreo y cuáles son los aviones que lideran esta evolución.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
           <p><button class="w3-button w3-padding-large w3-white w3-border"><b>LEER MÁS »</b></button></p>
@@ -69,7 +69,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <img src="https://via.placeholder.com/200x200" style="width:100%">
     <div class="w3-container w3-white">
       <h4><b>Juan Pérez</b></h4>
-      <p>Amante de la naturaleza y la aventura. Explorador de nuevos lugares y apasionado de compartir experiencias.</p>
+      <p>Apasionado por la aviación y la tecnología aeronáutica. Explorador de las innovaciones en el mundo de los aviones de combate.</p>
     </div>
   </div><hr>
   
@@ -80,13 +80,13 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
         <img src="https://via.placeholder.com/50" alt="Imagen" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Senderismo</span><br>
-        <span>Explora nuevos caminos</span>
+        <span class="w3-large">Historia de la aviación</span><br>
+        <span>Desde los primeros vuelos hasta hoy</span>
       </li>
       <li class="w3-padding-16">
         <img src="https://via.placeholder.com/50" alt="Imagen" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Fotografía</span><br>
-        <span>Captura momentos únicos</span>
+        <span class="w3-large">Aviones furtivos</span><br>
+        <span>El futuro del combate aéreo</span>
       </li> 
     </ul>
   </div>
@@ -97,8 +97,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <h4>Etiquetas</h4>
     </div>
     <div class="w3-container w3-white">
-    <p><span class="w3-tag w3-black w3-margin-bottom">Aventura</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Fotografía</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Senderismo</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ciudades</span>
+    <p><span class="w3-tag w3-black w3-margin-bottom">Aviación</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tecnología furtiva</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Aviones de combate</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Innovación</span>
     </p>
     </div>
   </div>
