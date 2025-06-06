@@ -10,18 +10,55 @@
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-  background-image: hrc='imagenes/military-jets-qgddamh686ip2top.jpg'); /* Imagen de fondo */
+  background-image: url('military-jets-qgddamh686ip2top.jpg'); /* Imagen de fondo */
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
+.w3-black-btn {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+}
+.w3-black-btn:hover {
+  background-color: #333;
+}
+.w3-hidden {
+  display: none;
+}
 </style>
+<script>
+function toggleDropdown() {
+  var content = document.getElementById("dropdownContent");
+  if (content.style.display === "none") {
+    content.style.display = "block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
 </head>
 <body>
 
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
   <div class="w3-display-topleft w3-padding-large w3-xlarge">
     La 5ª generación de la aviación
+  </div>
+
+  <div class="w3-display-topmiddle w3-center" style="width: 60%;">
+    <button class="w3-black-btn" onclick="toggleDropdown()">Generación 4.5 ▼</button>
+    
+    <div id="dropdownContent" class="w3-container w3-white w3-hidden w3-padding">
+      <h3><b>Rafale</b></h3>
+      <p>El Dassault Rafale es un caza polivalente desarrollado en Francia con tecnología avanzada, capaz de operar en misiones aire-aire y aire-tierra.</p>
+      
+      <h3><b>Eurofighter Typhoon</b></h3>
+      <p>El Eurofighter Typhoon es un caza de cuarta generación avanzada, desarrollado por un consorcio europeo para mantener superioridad aérea.</p>
+    </div>
   </div>
   
   <div class="w3-display-middle w3-center">
@@ -32,8 +69,6 @@ body, html {height: 100%}
       <p><button class="w3-button w3-padding-large w3-white w3-border"><b>F-35 »</b></button></p>
       <p><button class="w3-button w3-padding-large w3-white w3-border"><b>SU-57 »</b></button></p>
       <p><button class="w3-button w3-padding-large w3-white w3-border"><b>J-20 »</b></button></p>
-      <p><button class="w3-button w3-padding-large w3-white w3-border"><b>Rafale »</b></button></p>
-      <p><button class="w3-button w3-padding-large w3-white w3-border"><b>Eurofighter Typhoon »</b></button></p>
     </div>
   </div>
   
